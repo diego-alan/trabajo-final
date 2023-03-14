@@ -1,0 +1,54 @@
+{
+  "carrera": [
+    {
+      "id": 1,
+      "nombre_carrera": "ing de sistemas",
+      "docente": "ing. angelo aguilar claros"
+    },
+    {
+      "nombre_carrera": "medicina",
+      "docente": "Dr. ANTONIO",
+      "id": 2
+    }
+  ],
+  "materia": [
+    {
+      "id": 1,
+      "nombre_materia": "diagramas",
+      "semestre": "tercero",
+      "paralelo": "primero",
+      "carreraId": 1
+    }
+  ],
+  "estudiante": [
+    {
+      "id": 1,
+      "nombre": "diego alanes pardo",
+      "carnet": "6503198",
+      "correo": "dalanes1990pardo@gmail.com",
+      "carreraId": 1,
+      "materiaId": 1
+    },
+    {
+      "nombre": "pablo antezanba",
+      "carnet": "13124343",
+      "correo": "pabloantezana1980@gmail.com",
+      "id": 2
+    }
+  ],
+  "notas": [
+    {
+      "id": 1,
+      "primero": 10,
+      "trabajo": 50,
+      "final": 100,
+      "estudianteId": 1
+    },
+    {
+      "primero": 12,
+      "trabajo": 12,
+      "final": 50,
+      "id": 2
+    }
+  ]
+}
